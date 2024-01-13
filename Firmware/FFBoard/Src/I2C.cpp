@@ -14,16 +14,16 @@ ClassIdentifier I2CPort::info = {
 
 
 
-static bool operator==(const I2C_InitTypeDef& lhs, const I2C_InitTypeDef& rhs) {
-	return lhs.AddressingMode == rhs.AddressingMode
-			&& lhs.ClockSpeed == rhs.ClockSpeed
-			&& lhs.DualAddressMode == rhs.DualAddressMode
-			&& lhs.DutyCycle == rhs.DutyCycle
-			&& lhs.GeneralCallMode == rhs.GeneralCallMode
-			&& lhs.NoStretchMode == rhs.NoStretchMode
-			&& lhs.OwnAddress1 == rhs.OwnAddress1
-			&& lhs.OwnAddress2 == rhs.OwnAddress2;
-}
+//static bool operator==(const I2C_InitTypeDef& lhs, const I2C_InitTypeDef& rhs) {
+//	return lhs.AddressingMode == rhs.AddressingMode
+//			&& lhs.ClockSpeed == rhs.ClockSpeed
+//			&& lhs.DualAddressMode == rhs.DualAddressMode
+//			&& lhs.DutyCycle == rhs.DutyCycle
+//			&& lhs.GeneralCallMode == rhs.GeneralCallMode
+//			&& lhs.NoStretchMode == rhs.NoStretchMode
+//			&& lhs.OwnAddress1 == rhs.OwnAddress1
+//			&& lhs.OwnAddress2 == rhs.OwnAddress2;
+//}
 
 
 
